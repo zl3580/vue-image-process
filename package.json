@@ -6,8 +6,7 @@
     "build": "vue-cli-service build --target lib --name VueImageProcess ./src/lib/index.js",
     "lint": "vue-cli-service lint"
   },
- "main":"dist/VueImageProcess.umd.js",
-  
+  "main": "dist/VueImageProcess.umd.js",
   "dependencies": {
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
