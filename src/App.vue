@@ -1,15 +1,16 @@
 <template>
   <div id="app">  
-    <imageprocess></imageprocess>
+    <imageprocess width=300 height=300>
+    </imageprocess>
   </div>
 </template>
 
 <script>
 export default {
   name: 'app',
-   mounted () {
-    console.log(this.$msg)
-  }
+  //  mounted () {
+  //   console.log(this.$msg)
+  // }
 }
 </script>
 
